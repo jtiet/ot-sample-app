@@ -1,0 +1,126 @@
+body, html {
+    background-color: gray;
+    height: 100%;
+}
+#videos {
+    position: relative;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#subscriber {
+    position: absolute;
+    right: 40px;
+    bottom: 45px;
+    width: 480px;
+    height: 360px;
+    z-index: 10;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#publisher {
+    position: absolute;
+    width: 480px;
+    height: 360px;
+    bottom: 45px;
+    left: 35px;
+    z-index: 100;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+
+#subscriberHeader {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+}
+
+#publisherHeader {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  z-index: 1;
+}
+
+#textchat {
+    position: relative;
+    width: 30%;
+    float: right;
+    right: 0;
+    height: 100%;
+    background-color: #333;
+}
+#history {
+     width: 100%;
+     height: calc(100% - 40px);
+     overflow: auto;
+}
+input#msgTxt {
+            height: 40px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+}
+#history .mine {
+    color: #00FF00;
+    text-align: right;
+    margin-right: 10px;
+}
+#history .theirs {
+    color: #00FFFF;
+    margin-left: 10px;
+}
+
+#start {
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #4CAF50;
+  z-index: 200;
+  left: 43px;
+  bottom: 0;
+}
+
+#stop {
+  position: absolute;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  background-color: #ff0000;
+  z-index: 200;
+  left: 43px;
+  bottom: 0;
+}
+
+#view {
+  position: absolute;
+  border: none;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  z-index: 200;
+  left: 43px;
+  bottom: 0;
+}
+
+#archive {
+  position: absolute;
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  margin: auto;
+}
